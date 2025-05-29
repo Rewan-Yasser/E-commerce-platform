@@ -40,7 +40,7 @@ window.addEventListener("DOMContentLoaded", function() {
       icon.classList.remove("fa-sun");
       icon.classList.add("fa-moon");
       // Change logo for light mode
-      if(navbarBrand) navbarBrand.src = "https://media.githubusercontent.com/media/Rewan-Yasser/E-commerce-platform/main/docs/images/noBgBlack.png";
+      if(navbarBrand) navbarBrand.src = "images/noBgBlack.png";
     }
   });
 });

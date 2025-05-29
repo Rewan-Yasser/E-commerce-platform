@@ -1,4 +1,4 @@
-# MODAÉ E-commerce Platform
+# ✨ MODAÉ E-commerce Platform
 
 Welcome to the MODAÉ E-commerce Platform!  
 This is a modern, responsive, and user-friendly e-commerce web application built with HTML, CSS, JavaScript, and Bootstrap.  
@@ -22,6 +22,7 @@ It features user authentication, product browsing, cart and favourites managemen
 ---
 
 ## 📁 Project Structure
+<details> <summary>Click to Expand Full Markdown Snippet</summary>
 E-commerce Platform/
 
 │
@@ -236,8 +237,11 @@ E-commerce Platform/
 │
 
 └── README.md
-
+</details>
 ---
+
+## How to use the website
+https://drive.google.com/file/d/1cl9sUk6sXEnbgQaGXqrLiCa9sJzNn7Dn/view?usp=sharing
 
 ✨ Usage
 Register a new account or login with existing credentials.

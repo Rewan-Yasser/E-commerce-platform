@@ -3,8 +3,8 @@ function setupNavbar() {
     if (!toggleBtn) return;
     const icon = toggleBtn.querySelector("i");
     const logo = document.getElementById("navbarBrand");
-    const lightLogo = "../images/noBgBlack.png";
-    const darkLogo = "../images/noBgColor.png";
+    const lightLogo = "https://media.githubusercontent.com/media/Rewan-Yasser/E-commerce-platform/main/docs/images/noBgBlack.png";
+    const darkLogo = "https://media.githubusercontent.com/media/Rewan-Yasser/E-commerce-platform/main/docs/images/noBgColor.png";
 
     // Set initial mode
     if (localStorage.getItem("homeMode") === "dark") {

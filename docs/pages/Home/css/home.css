@@ -334,10 +334,6 @@ body.dark-mode i {
         padding: 0.2rem 0.5rem;
     }
     .product-card {
-        min-width: 90px;
-        max-width: 100%;
-        min-height: 120px;
-        max-height: 140px;
         height: 130px;
         padding: 0.3rem 0.1rem;
         margin-bottom: 1rem;

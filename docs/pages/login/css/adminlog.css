@@ -1,5 +1,6 @@
 /* Background for the whole page */
 #background {
+    height: 100vh;
     background: linear-gradient(rgba(28,56,121,0.2)), url(../png/background1.webp);
     background-size: cover;
     background-position: center;
@@ -82,6 +83,11 @@
 /* Responsive adjustments */
 /* Tablet styles */
 @media (max-width: 992px) {
+    #background {
+        background-position: top;
+        background-size: cover;
+        min-height: 100vh;
+    }
     #loginForm {
         padding: 2rem 1rem;
         max-width: 90vw;
@@ -94,6 +100,11 @@
 
 /* Mobile styles */
 @media (max-width: 576px) {
+    #background {
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+    }
     #loginForm {
         padding: 1.2rem 0.5rem;
         max-width: 98vw;

@@ -52,8 +52,9 @@ body.dark-mode #header {
 }
 
 /* style the header */
-/* video as background */
+/* Gif as background */
 #bgVideo {
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;

@@ -1,0 +1,61 @@
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.3)), url(../png/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;  
+}
+
+.login-box {
+    background: rgba(255,255,255,0.85);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,1);
+    padding: 2.5rem 2rem;
+    min-width: 300px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 2rem;
+    color: #1C3879;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* admin button */
+.btnAdmin {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #1C3879;
+    text-align: center;
+    border-radius: .3125rem;
+}
+
+/* user button */
+.btnUser {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: #607EAA;
+    text-align: center;
+    border-radius: .3125rem;
+}
+
+.login-box a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* hover and transform effect */
+.login-box a:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

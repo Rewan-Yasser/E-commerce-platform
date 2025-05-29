@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- toastify link -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/adminlog.css">
+  <title>Admin login</title>
+</head>
+
+<body>
+  <!-- Login Form -->
+  <section id="background">
+    <div class="container">
+      <form id="loginForm" class="mt-5">
+        <h2 class="text-center mt-5">Login</h2>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="logEmail" aria-describedby="emailHelp" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="logPassword" placeholder="Enter your password">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="check">
+          <label class="form-check-label" for="exampleCheck1">Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+        <p><span>The email address is: </span>admin@example.com</p>
+        <p><span>The password is: </span> Admin@123</p>
+      </form>
+    </div>
+  </section>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/adminlog.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> 
+</html>

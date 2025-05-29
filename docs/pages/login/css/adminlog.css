@@ -1,0 +1,105 @@
+/* Background for the whole page */
+#background {
+    background: linear-gradient(rgba(28,56,121,0.2)), url(../png/background1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Center the login form */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style the login form */
+#loginForm {
+    background: rgba(255,255,255,0.7);
+    border-radius: 22px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+    padding: 0rem 2rem 2rem 2rem;
+    max-width: 365px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#loginForm h2 {
+    color: #1C3879;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#loginForm label {
+    color: #1C3879;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+#loginForm .form-control {
+    border-radius: .75rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#loginForm .form-check-label {
+    color: #607EAA;
+    font-size: 0.98rem;
+}
+
+#loginForm .btn {
+    width: 100%;
+    background: #1C3879;
+    color: #F9F5EB;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 8px 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1.2rem;
+    transition: background 0.2s, transform 0.2s;
+}
+
+#loginForm .btn:hover, #loginForm .btn:focus {
+    background: #607EAA;
+    color: #EAE3D2;
+    transform: scale(1.05);
+}
+
+#loginForm p {
+    font-size: 0.95rem;
+    color: #607EAA;
+    margin-bottom: 0.3rem;
+    text-align: center;
+    font-weight: 500;
+}
+#loginForm span {
+    color: #1C3879;
+    text-decoration: none;
+    font: optional;
+}
+
+/* Responsive adjustments */
+/* Tablet styles */
+@media (max-width: 992px) {
+    #loginForm {
+        padding: 2rem 1rem;
+        max-width: 90vw;
+        font-size: 0.98rem;
+    }
+    #loginForm h2 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 576px) {
+    #loginForm {
+        padding: 1.2rem 0.5rem;
+        max-width: 98vw;
+        font-size: 0.95rem;
+    }
+    #loginForm h2 {
+        font-size: 1.1rem;
+    }
+}

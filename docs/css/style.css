@@ -1,0 +1,171 @@
+/* custom navbar */
+.navbar {
+  background-color: #EAE3D2;
+  height: 70px;
+}
+
+/* icons of login & sign up */
+.icons {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #1C3879;
+
+}
+
+/* Toggle button to switch between dark and light mode  */
+body.dark-mode {
+  background-color: #1C3879 !important;
+  color: #EAE3D2 !important;
+}
+
+body.dark-mode .navbar {
+  background-color: #1C3879 !important;
+}
+
+body.dark-mode p,
+body.dark-mode .navbar,
+body.dark-mode .container,
+body.dark-mode footer {
+  color: #EAE3D2 !important;
+}
+
+body.dark-mode h1{
+  color: #EAE3D2 !important;
+  padding-top: 1px;
+  line-height: 4rem;
+}
+/* Change login and sign up icon color in dark mode */
+body.dark-mode .fa-user,
+body.dark-mode .fa-user-plus,
+body.dark-mode .icons {
+  color: #EAE3D2 !important;
+}
+
+body.dark-mode .btn,
+body.dark-mode .form-control {
+  color: #EAE3D2 !important;
+}
+
+body.dark-mode #header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0% 100%);
+}
+
+/* style the header */
+/* video as background */
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  width: auto;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.5;             /* Adjust for desired darkness */
+  pointer-events: none;    /* So form elements are clickable */
+}
+
+h1 {
+  color: #1C3879;
+  font-size: 100px;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 4rem;
+  margin: 0 0 1rem;
+  padding-top: 22%;
+}
+
+#headerText {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1754af;
+}
+
+/* Responsive styles for tablets */
+@media (max-width: 1024px) {
+  .navbar {
+    height: 56px;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-brand {
+    width: 48px !important;
+    max-width: 48px;
+  }
+
+  #navbarBrand {
+    width: 90px !important;
+  }
+
+  .icons {
+    font-size: 0.8rem;
+  }
+
+  #navIcons {
+    gap: 0.5rem;
+  }
+
+  #header {
+    padding-top: 60px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    padding-top: 20%;
+    margin-bottom: 0.7rem;
+  }
+
+  #headerText {
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+  }
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 576px) {
+  #header {
+    padding-top: 50px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    padding-top: 70%;
+    margin-bottom: 0.3rem;
+  }
+
+  #headerText {
+    font-size: 0.92rem;
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+  }
+
+  .navbar {
+    height: 48px;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .navbar-brand {
+    width: 36px !important;
+    max-width: 36px;
+  }
+
+  .icons {
+    font-size: 0.75rem;
+  }
+
+  .fa-user,
+  .fa-user-plus {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* style the footer */
+/* footer {
+    background-color: #334A6F;
+    color: white;
+    height: 100px;
+} */

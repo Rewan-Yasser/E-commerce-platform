@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- toastify link -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/register.css">
+  <title>Register</title>
+</head>
+
+<body>
+  <!-- Registration Form -->
+  <div class="container">
+    <form id="registerForm" class="mt-5">
+      <h2 class="text-center formTitle">Sign Up</h2>
+      <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="regUsername" placeholder="Enter your username" />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="regEmail" aria-describedby="emailHelp"
+          placeholder="Enter your email">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="regPassword" placeholder="Enter your password">
+      </div>
+
+      <div class="mb-0 form-check">
+        <input type="checkbox" class="form-check-input" id="rememberMe" />
+        <label class="form-check-label" for="rememberMe">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Register</button>
+      <div id="haveAcc" class="ms-1 mt-4 text-center">Already have account? <a type="button"
+          class="btn btn-primary ms-2" href="../login/login.html">Login</a></div>
+    </form>
+  </div>
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/register.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</html>

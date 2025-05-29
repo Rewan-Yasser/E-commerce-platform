@@ -21,7 +21,7 @@ document
 
       //Go to home page after a short delay
       setTimeout(() => {
-        window.location.href = "../home/home.html"; 
+        window.location.href = "../Home/home.html"; 
       }, 1200);
     } else {
       Toastify({

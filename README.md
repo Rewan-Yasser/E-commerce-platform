@@ -23,112 +23,218 @@ It features user authentication, product browsing, cart and favourites managemen
 
 ## 📁 Project Structure
 E-commerce Platform/
+
 │
 ├── docs/
+
 │   ├── css/
+
 │   │   ├── all.min.css
+
 │   │   ├── bootstrap.min.css
+
 │   │   └── style.css
+
 │   ├── images/
+
 │   │   ├── background.gif
+
 │   │   ├── noBgBlack.png
+
 │   │   ├── noBgColor.png
+
 │   │   └── shopping-data.png
+
 │   ├── js/
+
 │   │   ├── bootstrap.bundle.min.js
+
 │   │   └── main.js
+
 │   ├── index.html
+
 │   ├── webfonts/
+
 │   │   ├── fa-brands-400.ttf
+
 │   │   ├── fa-brands-400.woff2
+
 │   │   ├── fa-regular-400.ttf
+
 │   │   ├── fa-regular-400.woff2
+    
 │   │   ├── fa-solid-900.ttf
+                            
 │   │   ├── fa-solid-900.woff2
+
 │   │   ├── fa-v4compatibility.ttf
+
 │   │   └── fa-v4compatibility.woff2
+
 │   └── pages/
+
 │       ├── Home/
+
 │       │   ├── cart.html
+
 │       │   ├── css/
+
 │       │   │   ├── all.min.css
+
 │       │   │   ├── bootstrap.min.css
+
 │       │   │   ├── cart.css
+
 │       │   │   ├── home.css
+
 │       │   │   └── product.css
+
 │       │   ├── home.html
+
 │       │   ├── images/
+
 │       │   │   ├── noBgBlack.png
+
 │       │   │   └── noBgColor.png
+
 │       │   ├── js/
+
 │       │   │   ├── bootstrap.bundle.min.js
+
 │       │   │   ├── cart.js
+
 │       │   │   ├── home.js
+
 │       │   │   ├── navbar.js
+
 │       │   │   └── product.js
+
 │       │   ├── navbar.html
+
 │       │   ├── product.html
+
 │       │   └── webfonts/
+
 │       │       ├── fa-brands-400.ttf
+
 │       │       ├── fa-brands-400.woff2
+
 │       │       ├── fa-regular-400.ttf
+
 │       │       ├── fa-regular-400.woff2
+
 │       │       ├── fa-solid-900.ttf
+
 │       │       ├── fa-solid-900.woff2
+
 │       │       ├── fa-v4compatibility.ttf
+
 │       │       └── fa-v4compatibility.woff2
+
 │       ├── Register/
+
 │       │   ├── css/
+
 │       │   │   ├── all.min.css
+
 │       │   │   ├── bootstrap.min.css
+
 │       │   │   └── register.css
+
 │       │   ├── images/
+
 │       │   │   ├── formbackground.jpg
+
 │       │   │   └── formbackground2.jpg
+
 │       │   ├── js/
+
 │       │   │   ├── bootstrap.bundle.min.js
+
 │       │   │   └── register.js
+
 │       │   └── register.html
+
 │       ├── admin/
+
 │       │   ├── admin.html
+
 │       │   ├── css/
+
 │       │   │   ├── admin.css
+
 │       │   │   ├── all.min.css
+
 │       │   │   └── bootstrap.min.css
+
 │       │   ├── images/
+
 │       │   │   ├── noBgBlack.png
+
 │       │   │   └── noBgColor.png
+
 │       │   ├── js/
+
 │       │   │   ├── admin.js
+
 │       │   │   └── bootstrap.bundle.min.js
+
 │       │   └── webfonts/
+
 │       │       ├── fa-brands-400.ttf
+
 │       │       ├── fa-brands-400.woff2
+
 │       │       ├── fa-regular-400.ttf
+
 │       │       ├── fa-regular-400.woff2
+
 │       │       ├── fa-solid-900.ttf
+
 │       │       ├── fa-solid-900.woff2
+
 │       │       ├── fa-v4compatibility.ttf
+
 │       │       └── fa-v4compatibility.woff2
+
 │       └── login/
+
 │           ├── adminlog.html
+
 │           ├── css/
+
 │           │   ├── adminlog.css
+
 │           │   ├── all.min.css
+
 │           │   ├── bootstrap.min.css
+
 │           │   ├── login.css
+
 │           │   └── userlog.css
+
 │           ├── js/
+
 │           │   ├── adminlog.js
+
 │           │   ├── bootstrap.bundle.min.js
+
 │           │   └── userlog.js
+
 │           ├── login.html
+
 │           ├── png/
+
 │           │   ├── background.jpg
+
 │           │   ├── background1.webp
+
 │           │   └── login.gif
+
 │           └── userlog.html
+
 │
+
 └── README.md
 
 ---
